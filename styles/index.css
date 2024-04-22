@@ -1,0 +1,39 @@
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.lista-de-posts {
+    display: flex;
+}
+
+.lista-de-posts .post {
+    width: 200px;
+    border: 1px solid #000;
+    
+}
+
+.lista-de-posts img {
+    width: 80px;
+    height: 80px;
+}
+
